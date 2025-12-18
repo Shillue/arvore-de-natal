@@ -1,7 +1,6 @@
 /* Responsivo  Telas max 600px*/
 @media screen and (max-width: 600px) {
   main.container {
-    width: 100%;
     margin: 0.2rem;
     padding: 0.2rem;
     border: none;
