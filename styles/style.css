@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+main.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 32rem;
+  height: auto;
+  padding: 1rem;
+  margin: 2rem 0.2rem 1rem;
+  border-radius: 20px;
+}
+
+/* Flocos de Neve */
+.neve-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.floco {
+  position: absolute;
+  top: -10px;
+  color: white;
+  animation-name: cair;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Animation cair da neve */
+@keyframes cair {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+/* Title */
+main.container > h1 {
+  color: yellow;
+  font-weight: bolder;
+  font-size: 4.3rem;
+  margin: 1px 0 10px;
+  padding: 2px;
+}
+
+/* container Arvore  */
+.arvore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  width: 28rem;
+  height: auto;
+  padding: 0.5rem;
+}
+
+/* Star */
+.arvore #star {
+  font-size: 4.3rem;
+  z-index: 12;
+  animation: brilhoEstrela 1.5s infinite alternate;
+  text-shadow:
+    0 0 8px gold,
+    0 0 16px gold,
+    0 0 24px orange;
+}
+
+/* Animation Brilho da Estrela */
+@keyframes brilhoEstrela {
+  from {
+    text-shadow:
+      0 0 6px gold,
+      0 0 12px gold,
+      0 0 18px orange;
+  }
+  to {
+    text-shadow:
+      0 0 12px gold,
+      0 0 24px gold,
+      0 0 36px orange;
+  }
+}
+
+.arvore .copa {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2.5rem;
+  margin-bottom: 0.313rem;
+  background-color: green;
+  border-radius: 20px 20px 2px 2px;
+}
+
+.arvore #n1 {
+  margin-top: -0.75rem;
+  width: 6.25rem;
+}
+
+.arvore #n2 {
+  width: 9.375rem;
+}
+
+.arvore #n3 {
+  width: 12.5rem;
+}
+
+.arvore #n4 {
+  width: 15.625rem;
+}
+
+.arvore #n5 {
+  width: 18.75rem;
+}
+
+.arvore #n6 {
+  width: 21.875rem;
+}
+
+.arvore #n7 {
+  width: 25rem;
+}
+
+.arvore #tronco {
+  background-color: maroon;
+  width: 2.5rem;
+  height: 3.75rem;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.arvore .copa .bola {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 5px;
+  animation: piscaPisca 2.5s infinite; /* Nome da animação, duração, loop */
+}
+
+/* Animação Pisca-pisca */
+@keyframes piscaPisca {
+  0% {
+    opacity: 1;
+  } /* Visível */
+  50% {
+    opacity: 0;
+  } /* Invisível */
+  100% {
+    opacity: 1;
+  } /* Visível novamente */
+}
+
+.arvore .copa .bola.cor1 {
+  background-color: red;
+  box-shadow: 0 0 10px 2px red;
+  animation-delay: 0s;
+}
+.arvore .copa .bola.cor2 {
+  background-color: blue;
+  box-shadow: 0 0 10px 2px blue;
+  animation-delay: 0.3s;
+}
+.arvore .copa .bola.cor3 {
+  background-color: yellow;
+  box-shadow: 0 0 10px 2px yellow;
+  animation-delay: 0.6s;
+}
+.arvore .copa .bola.cor4 {
+  background-color: rgb(243, 3, 243);
+  box-shadow: 0 0 10px 2px rgb(243, 3, 243);
+  animation-delay: 0.9s;
+}
+.arvore .copa .bola.cor5 {
+  background-color: rgb(2, 230, 255);
+  box-shadow: 0 0 10px 2px rgb(2, 230, 255);
+  animation-delay: 1.2s;
+}
+.arvore .copa .bola.cor6 {
+  background-color: rgb(247, 148, 67);
+  box-shadow: 0 0 10px 2px rgb(247, 148, 67);
+  animation-delay: 1.5s;
+}
+
+/* Footer */
+.rodape {
+  margin: 1rem 0 0;
+  padding: 2rem 1rem 0.1rem;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.rodape p {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
+  color: rgb(169, 242, 241);
+}
+
+.rodape p a {
+  text-decoration: none;
+  color: rgb(169, 242, 241);
+}
+
+.rodape p a:hover {
+  font-weight: 800;
+  color: rgb(73, 155, 206);
+}

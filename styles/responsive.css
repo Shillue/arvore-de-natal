@@ -1,0 +1,87 @@
+/* Responsivo  Telas max 600px*/
+@media screen and (max-width: 600px) {
+  main.container {
+    width: 100vh;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    border: none;
+  }
+
+  /* Title */
+  main.container > h1 {
+    font-size: 3rem;
+    margin: 2rem 1rem 0.2rem;
+    /* padding: 2px; */
+  }
+
+  /* container Arvore  */
+  .arvore {
+    margin: 0;
+    padding: 0.2rem;
+    width: 100vh;
+  }
+
+  /* Star */
+  .arvore #star {
+    font-size: 3.7rem;
+  }
+
+  /* Copa */
+  .arvore .copa {
+    height: 2.2rem;
+    margin-bottom: 0.29rem;
+    border-radius: 20px 20px 2px 2px;
+  }
+
+  .arvore #n1 {
+    margin-top: -0.75rem;
+    width: 5rem;
+  }
+
+  .arvore #n2 {
+    width: 8.125rem;
+  }
+
+  .arvore #n3 {
+    width: 11.25rem;
+  }
+
+  .arvore #n4 {
+    width: 14.375rem;
+  }
+
+  .arvore #n5 {
+    width: 17.5rem;
+  }
+
+  .arvore #n6 {
+    width: 20.625rem;
+  }
+
+  .arvore #n7 {
+    width: 23.75rem;
+  }
+
+  /* Troco */
+  .arvore #tronco {
+    height: 3.4rem;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  /* Bola */
+  .arvore .copa .bola {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Footer */
+  .rodape {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .rodape p {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
