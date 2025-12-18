@@ -77,8 +77,13 @@ O projeto foi construído usando apenas **tecnologias web puras**, sem bibliotec
 
 ## 📸 Prévia do Projeto
 
+<img width="1920" height="1080" alt="arvore-de-natal" src="https://github.com/user-attachments/assets/5c61cfbf-14b0-4081-97a5-af125ecf8bca" />
 
+---
 
+## Link 
+
+- Live Site URL: [Link]()
 ---
 
 ## 🚀 Como Executar Localmente
@@ -98,5 +103,7 @@ index.html
 
 ---
 
-## Autor
+## 👨‍💻 Autor
 
+Feito com 🎄💖 por [Shilluê](https://www.linkedin.com/in/shillu%C3%AA/)       
+Projeto criado para estudo, prática e celebração do Natal ✨
