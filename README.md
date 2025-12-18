@@ -83,7 +83,7 @@ O projeto foi construído usando apenas **tecnologias web puras**, sem bibliotec
 
 ## Link 
 
-- Live Site URL: [Link]()
+- Live Site URL: [Link](https://shillue.github.io/arvore-de-natal/)
 ---
 
 ## 🚀 Como Executar Localmente
