@@ -209,8 +209,6 @@ main.container > h1 {
   margin: 1rem 0 0;
   padding: 2rem 1rem 0.1rem;
   width: 100%;
-  position: fixed;
-  bottom: 0;
 }
 
 .rodape p {
