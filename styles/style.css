@@ -20,11 +20,9 @@ main.container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 32rem;
+  width: 100%;
   height: auto;
-  padding: 1rem;
-  margin: 2rem 0.2rem 1rem;
-  border-radius: 20px;
+  padding: 2rem;
 }
 
 /* Flocos de Neve */
@@ -209,6 +207,7 @@ main.container > h1 {
   margin: 1rem 0 0;
   padding: 2rem 1rem 0.1rem;
   width: 100%;
+  height: 10%;
 }
 
 .rodape p {
