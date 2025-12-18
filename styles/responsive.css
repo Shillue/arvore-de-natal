@@ -10,14 +10,13 @@
   main.container > h1 {
     font-size: 3rem;
     margin: 2rem 1rem 0.2rem;
-    /* padding: 2px; */
   }
 
   /* container Arvore  */
   .arvore {
     margin: 0;
     padding: 0.2rem;
-    width: 100vh;
+    width: 100%;
   }
 
   /* Star */
