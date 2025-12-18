@@ -20,7 +20,7 @@ main.container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vh;
+  width: 32rem;
   height: auto;
   padding: 1rem;
   margin: 2rem 0.2rem 1rem;
